@@ -1,0 +1,59 @@
+#root {
+  margin-bottom: auto;
+  
+}
+.header
+{
+  height: 12.5rem;
+  width: 79.063rem;
+  background-color: rgb(141, 183, 220);
+  padding-top: 3.125rem;
+}
+
+.card-container{
+  margin-top: 0.625rem;
+  margin-top: 0.625rem;
+  height: 18.75rem;
+  width: 18.75rem;
+  box-shadow: 0px 3px 50px #2ae0d7;
+}
+
+.card-wrapper{
+  width: 16.875rem; 
+  height: 12.5rem; 
+  box-shadow: 0px 3px 50px rgb(101, 191, 234);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 0.625rem 0.625rem;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  max-width: 5rem;
+  height: 1.875rem;
+  padding:0.063rem 0.063rem!important;
+  text-align: center;
+}
+
+.task-container{
+  height: 37.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding : 2.5rem 6.25rem;
+}
